@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Banking System</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+   <section>
+      <div class="card" data-my-cc>
+         <img src="./assets/images/map.png" alt="Map" class="map-img">
+         <div class="row card-type" data-card-type>
+            <p>INVESTOR</p>
+            <img src="./assets/images/visa.png" alt="Visa" width="45px">
+         </div>
+         <div class="row plates no" data-card-plates>
+            <img src="./assets/images/chip.png" alt="Chip" width="35px" style="margin-right: 0.75rem;" />
+            <img src="./assets/images/card-icon.png" alt="Chip" width="40px" />
+         </div>
+         <div class="row card-number" data-card-number>
+            <p>5453 2000 0000 0000</p>
+         </div>
+         <div class="row card-expiry" data-card-expiryDate>
+            <p>EXP. END: &nbsp;&nbsp;<span>11/22</span></p>
+         </div>
+         <div class="row card-holder" data-card-holder>
+            <p>MR. AYUSH DEDHIA</p>
+            <img src="./assets/images/card.png" alt="Master Card" width="50px">
+         </div>
+      </div>
+   </section>
+   
+   <hr>
+   
+   <section id="transaction" class="card-block">
+      <div class="account-details holder">
+         <div class="holder-item">
+            <div class="stretch-block">
+               <h4>Current Balance</h4>
+               <h3 class="currency-text">&#8377;<span>540.75</span></h3>
+            </div>
+            
+            <div class="stretch-block">
+               <h4>GST Rate</h4>
+               <h3 class="currency-text">12%</h3>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <hr>
+   
+   <section id="actions" class="card-block">
+      <h3 class="mb-1">Actions</h3>
+      <div class="account-buttons">
+         <button type="button" class="btn btn-deposit">
+            <i class="far fa-wallet" style="font-size: 1.3em;"></i>
+            Deposit
+         </button>
+         <button type="button" class="btn btn-withdraw">
+            <i class="far fa-sack-dollar" style="font-size: 1.3em;"></i>
+            Withdraw
+         </button>
+      </div>
+   </section>
+   
+   <script src="./assets/lib/fa-pro.js"></script>
+   <script type="module" src="./assets/js/index.js"></script>
+   <script>
+      // Code...
+   </script>
+</body>
+</html>
